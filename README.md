@@ -13,3 +13,8 @@ This is a minimal reproducible repo to show that [Next.js](https://nextjs.org) r
     ```
     Request URL: http://0.0.0.0:3000/get/localhost/show/127.0.0.1
     ```
+5. Run `npm run dev` to run server in development mode.
+6. Access `http://server-hostname:3000/get/127.0.0.5/show/127.0.0.1` from browser, where `server-hostname` is the hostname the running server. The request URL is not showing `server-hostname`.
+    ```
+    Request URL: http://localhost:3000/get/127.0.0.5/show/127.0.0.1
+    ```
